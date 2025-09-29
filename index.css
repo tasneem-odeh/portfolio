@@ -20,13 +20,10 @@ section {
     min-height: 75vh;
 }
 
-h2 {
-    color: #4A102A;
+.colorlabel
+{
+color: #4E1F00;
 }
-p {
-    color: #4E1F00; 
-}
-
 
 main {
     display: flex;
@@ -35,9 +32,7 @@ main {
 #skills {
    order:-1;
 }
-#skills li{
-color :  #4E1F00;
-}
+
 #about{
 flex-flow: column wrap;
 }
