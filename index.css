@@ -27,15 +27,8 @@ color: #4E1F00;
 
 main {
     display: flex;
-   justify-content: space-around;
-}    
-#skills {
-   order:-1;
-}
+    }    
 
-#about{
-flex-flow: column wrap;
-}
 
     
 
