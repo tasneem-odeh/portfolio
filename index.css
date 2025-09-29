@@ -1,7 +1,6 @@
 body {
     font-family:  Arial, sans-serif ;
-    background-color: white;
-    color: #541212;
+    background-color: white;   
     line-height: 1.6;
     padding: 10px;    
 }
@@ -21,7 +20,7 @@ section {
     min-height: 75vh;
 }
 
-h2, h3,h4 {
+h2 {
     color: #4A102A;
 }
 p {
@@ -31,13 +30,18 @@ p {
 
 main {
     display: flex;
-    justify-content: space-around;
-    
+   justify-content: space-around;
+}    
 #skills {
    order:-1;
 }
+#skills li{
+color :  #4E1F00;
+}
 #about{
 flex-flow: column wrap;
-}    
 }
+
+    
+
 
